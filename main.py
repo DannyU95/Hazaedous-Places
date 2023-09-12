@@ -3,7 +3,7 @@ import pandas as pd
 import functions as fun
 
 
-mindate='1800-01-01'
+mindate='1950-01-01'
 maxdate='2022-12-01'
 #1
 # reorganize(Disaster first 3 letters): reorganizes the csv dataframe into useful
@@ -28,4 +28,4 @@ fun.make_map_plot_areas(list_of_disasters,grid=False, scale=False, Min_date = mi
 fun.make_map_plot(list_of_disasters, Min_date = mindate, Max_date =maxdate)
 
 # Info of the functions used in the major functions is in the "functions" file.
-# print (volcanoes)
+print (list_of_disasters)
